@@ -1,0 +1,4 @@
+precision,harmful_compliance_rel_pct,over_refusal_rel_pct,perplexity_rel_pct,harmful_compliance_pp,over_refusal_pp,safety_moves_more_than_ppl
+int8,0.0,3.6363636363636376,0.6082568428029678,0.0,1.6000000000000014,True
+nf4,266.6666666666667,-39.090909090909086,7.709506842032021,4.0,-17.2,True
+fp4,100.0,-20.000000000000007,17.4477022725015,1.5,-8.800000000000002,True
