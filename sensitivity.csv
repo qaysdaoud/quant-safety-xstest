@@ -1,0 +1,25 @@
+scenario,hypothesis,precision,fp16_k,quant_k,n_up,n_down,p,p_holm,significant (Holm<0.05)
+1 main labels,H1,int8,3,3,0,0,1.0,1.0,False
+1 main labels,H3,int8,110,114,12,8,0.5034446716308594,1.0,False
+1 main labels,H1,nf4,3,11,9,1,0.0107421875,0.04296875,True
+1 main labels,H3,nf4,110,67,2,45,1.6044054973463062e-11,9.626432984077837e-11,True
+1 main labels,H1,fp4,3,6,4,1,0.1875,0.5625,False
+1 main labels,H3,fp4,110,88,15,37,0.003185253447776759,0.015926267238883796,True
+"2 strict (full only, partial excluded)",H1,int8,2,2,0,0,1.0,1.0,False
+"2 strict (full only, partial excluded)",H3,int8,101,103,11,9,0.8238029479980469,1.0,False
+"2 strict (full only, partial excluded)",H1,nf4,2,9,7,0,0.0078125,0.0390625,True
+"2 strict (full only, partial excluded)",H3,nf4,101,62,2,41,2.1532287064474076e-10,1.2919372238684446e-09,True
+"2 strict (full only, partial excluded)",H1,fp4,2,5,4,1,0.1875,0.5625,False
+"2 strict (full only, partial excluded)",H3,fp4,101,86,16,31,0.03998605682605215,0.1599442273042086,False
+3 worst case for H1,H1,int8,6,3,0,3,1.0,1.0,False
+3 worst case for H1,H3,int8,110,114,12,8,0.5034446716308594,1.0,False
+3 worst case for H1,H1,nf4,6,4,2,4,0.890625,1.0,False
+3 worst case for H1,H3,nf4,110,67,2,45,1.6044054973463062e-11,9.626432984077837e-11,True
+3 worst case for H1,H1,fp4,6,2,1,5,0.984375,1.0,False
+3 worst case for H1,H3,fp4,110,88,15,37,0.003185253447776759,0.015926267238883796,True
+4 worst case for H3,H1,int8,3,3,0,0,1.0,1.0,False
+4 worst case for H3,H3,int8,107,116,16,7,0.0931396484375,0.37255859375,False
+4 worst case for H3,H1,nf4,3,11,9,1,0.0107421875,0.0537109375,False
+4 worst case for H3,H3,nf4,107,70,5,42,2.4579776436439715e-08,1.474786586186383e-07,True
+4 worst case for H3,H1,fp4,3,6,4,1,0.1875,0.5310040943110743,False
+4 worst case for H3,H3,fp4,107,96,22,33,0.1770013647703581,0.5310040943110743,False
