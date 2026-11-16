@@ -44,11 +44,11 @@ In short:
 | `table1.csv` | The summary table, with 95% Wilson confidence intervals |
 | `tests_h1_h3.csv` | Exact McNemar tests for hypotheses 1 and 3, with Holm correction |
 | `tests_h4.csv` | Mann-Whitney U tests on the FP16 first-token gap, for hypothesis 4 |
-| `h2_relative_change.csv` | Relative changes in refusal behaviour and perplexity, for hypothesis 2 |
+| `h2_relative_change.csv` | For each quantized precision, the change from FP16 in harmful compliance, over-refusal and perplexity, as relative percentages and percentage points |
 | `sensitivity.csv` | The tests rerun under stricter and worst-case labellings of 62 borderline answers |
 | `figure1.png`, `figure1.pdf` | Harmful compliance and over-refusal by precision |
 | `figure2.png`, `figure2.pdf` | FP16 first-token gap for flipped and non-flipped prompts |
-| `run_log.json` | Settings and environment details for the run |
+| `run_log.json` | The run’s settings and environment: model, precisions, GPU, library versions, decoding and perplexity settings, and the seed |
 
 ## Labels
 
