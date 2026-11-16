@@ -87,7 +87,7 @@ the same reason. The prompts themselves are available from the XSTest authors.
 
 ## AI usage
 
-An AI assistant (Claude) wrote most of the notebook and analysis code under the
+An AI assistant wrote most of the notebook and analysis code under the
 author's direction, and assigned about 70% of the reviewed labels under rules written
 together with the author. The author chose the question, ran the experiments,
 labelled the remaining answers and reviewed the borderline cases.
