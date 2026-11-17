@@ -1,5 +1,7 @@
 # Does quantizing a small LLM change what it refuses?
 
+Full write-up: https://medium.com/@qays.daoud/does-quantizing-a-small-llm-change-what-it-refuses-9e908354338a
+
 Results from a small study of how quantization changes the refusal behaviour of
 [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct).
 
